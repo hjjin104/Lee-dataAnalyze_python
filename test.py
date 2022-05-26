@@ -33,7 +33,7 @@
 a = int(input("숫자 1===> "))
 b = int(input("숫자 2===> "))
 
-num = "100 / 3 = " + str(a/b)+'\n'"100 % 3 = "+str(a % b)
+num = "100 / 3 = " + str(a/b)+"\n100 % 3 = "+str(a % b)
 print(num)
 # print("100 / 3 = " + str(a/b))
 # print("100 % 3 = "+str(a % b))
