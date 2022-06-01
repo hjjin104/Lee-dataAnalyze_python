@@ -29,8 +29,9 @@
 
 # Q3 주민등록번호 가리기
 idNum = "951004-2345678"
-privateIdNum = idNum[7::]
-print(privateIdNum.replace(privateIdNum, '*******'))
+for x in idNum[:6]:
+    print(x, end='')
+
 
 # # Q4 호텔 예약 관리하기
 # bookList = [103, 205, 405]
