@@ -2,7 +2,7 @@ age = int(input("나이를 입력하세요. "))
 # print(age//10)
 
 # input 값 45, 25인 경우 print 안 됨
-
+# List version
 # _10s = ["어벤져스", "뮬란"]
 # _20_30s = ["뮬란", "테넷", "오!문희"]
 # _40_50s = ["테넷"]
@@ -16,7 +16,7 @@ age = int(input("나이를 입력하세요. "))
 # if age // 10 > 5:
 #     print(_60s)
 
-
+# Dictionary Version
 recommend_movies = {'10대': ["에벤져스", "뮬란"],
                     "2030": ["뮬란", "테넷", "오!문희"],
                     "4050": ["테넷"],
